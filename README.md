@@ -6,4 +6,4 @@ I'll write source link for thanks and refer.
 
 There are many sources for using. For example:
 - [Python Projects with Source Code. Beginner & Advanced](https://thecleverprogrammer.com/2021/01/14/python-projects-with-source-code)
-- [Python Practice Questions for Coding Interviews](https://amankharwal.medium.com/python-practice-questions-for-beginners-268fcdfb14e6)
+- [Python Practice Questions for Coding Interviews](https://thecleverprogrammer.com/2022/07/15/python-practice-questions-for-coding-interviews/)
