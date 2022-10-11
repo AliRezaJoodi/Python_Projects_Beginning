@@ -1,5 +1,4 @@
-# Thanks to: Aman Kharwal
-# Source Link: https://TheCleverProgrammer.com/2022/06/29/number-guessing-game-using-python
+# GitHub.com/AliRezaJoodi
 
 import random
 
