@@ -6,3 +6,5 @@ To give hints to the user, we can use conditional statements to tell the user if
 
 Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
 Source Link:  [Number Guessing Game using Python](https://TheCleverProgrammer.com/2022/06/29/number-guessing-game-using-python)
+
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
