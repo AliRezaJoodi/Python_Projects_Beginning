@@ -4,6 +4,6 @@ I will find ideas or projects for programming exercise. I'll first try to do it 
 
 I'll write source link for thanks and refer.
 
-There are many sources for using. For example:
+There are many sources for exercises. For example:
 - [Python Projects with Source Code. Beginner & Advanced](https://thecleverprogrammer.com/2021/01/14/python-projects-with-source-code)
 - [Python Practice Questions for Coding Interviews](https://thecleverprogrammer.com/2022/07/15/python-practice-questions-for-coding-interviews/)
