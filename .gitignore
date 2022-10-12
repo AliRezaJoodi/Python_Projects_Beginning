@@ -1,2 +1,5 @@
 # Personal folders and files for ignore
 _Pending
+
+# Python folders and files for ignore
+__pycache__
