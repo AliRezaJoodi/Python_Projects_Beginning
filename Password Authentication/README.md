@@ -1,4 +1,4 @@
-It's about **Password Authentication**.
+It's my solutions for **Password Authentication**.
 
 ### Assignment
 Password Authentication is the process of checking the identity of a user.  
