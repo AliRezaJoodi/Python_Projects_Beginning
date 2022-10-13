@@ -6,7 +6,11 @@ Write a program to create a password that including of numbers, uppercase, lower
 ### Development
 Write your code in `Password_Generator.py`. For development, you can use `Main.py` to test your function. Click the "Run" button and main.py will run.
 
-![](Album.png)
+### Output
+ ```
+Enter a Length of the Password: 16
+Generated Password:  @OoNI'8ih[t+!MfS
+```
 
 Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
 Source Link:  [Python Program to Generate Password](https://thecleverprogrammer.com/2021/01/11/python-program-to-generate-password)
