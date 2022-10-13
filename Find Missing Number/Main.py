@@ -1,4 +1,4 @@
-# https://github.com/AliRezaJoodi
+# GitHub.com/AliRezaJoodi
 
 from Find_Missing_Number import find_missing_number
 

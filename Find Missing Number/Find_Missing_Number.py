@@ -1,4 +1,4 @@
-# https://github.com/AliRezaJoodi
+# GitHub.com/AliRezaJoodi
 
 def find_missing_number(numbers, dibag=False):
     if dibag==True: print("Orginal List:   ",numbers)

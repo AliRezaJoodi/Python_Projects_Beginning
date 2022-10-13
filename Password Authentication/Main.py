@@ -1,4 +1,4 @@
-# https://github.com/AliRezaJoodi
+# GitHub.com/AliRezaJoodi
 
 from Password_Authentication import authentication
           

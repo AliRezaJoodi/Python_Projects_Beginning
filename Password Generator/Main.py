@@ -1,4 +1,4 @@
-# https://github.com/AliRezaJoodi
+# GitHub.com/AliRezaJoodi
 
 from Password_Generator import password_generator_V10
 from Password_Generator import password_generator_V20
