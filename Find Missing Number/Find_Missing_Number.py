@@ -9,5 +9,5 @@ def find_missing_number(numbers, dibag=False):
     missing_number=[]
     for i in range(1,max_number+1):
         if i not in numbers: missing_number.append(i)
-    if dibag==True: print("missing_number: ", missing_number)
+    if dibag==True: print("missing_numbers: ", missing_number)
     return missing_number
