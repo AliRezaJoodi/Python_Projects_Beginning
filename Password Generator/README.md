@@ -12,17 +12,21 @@ It's my solutions output
 Enter a Length of the Password: 8
 
 
-Function:               password_generator_V10
-txt_str:                !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-Password V10:           !Qr~{KcW
-Generated Password:     !Qr~{KcW
+Function:              password_generator_V10
+txt_str                !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+Password V10:          -a}F@){/
 
 
-Function:               password_generator_V20
-txt_str(Primary):       0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&'()*+,-./[\]^_`{|}~
-txt_str(Final):         yG|3q[WfL2.Uhg{E_7cF`06K(95ANnux/-Is]CjiQ)!'D^twmpbdl1M$,XTS}e\YHB+rk%a*PROo4zV&vZ8~#J
-Password V20:           r&gjfoHd
-Generated Password:     r&gjfoHd
+Generated Password:    -a}F@){/
+
+
+Function:              password_generator_V20
+txt_str(Primary):      0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+txt_str(Final):        rz/'1@A}*oZlkTEh=4W<&dI2Km(7)a9^xqu-.:g!%#GYtVcp83]\{nsfw[b`+>~JO6_MCPX;NFBjL|URD$eQiH0ySv?5,
+Password V20:          s?T0)%ED
+
+
+Generated Password:    s?T0)%ED
 ```
 
 Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
