@@ -14,7 +14,7 @@ It's my solutions for **Python Programming**.
 ### Assignment
 
 ### Development
-Write your code in `Function.py`. For development, you can use `Main.py` to test your function. Click the "Run" button and main.py will run.
+I'll Write the code in `Function.py`. For development, then can use `Main.py` to test my function.
 
 ### Output
 It's my solutions output
@@ -50,7 +50,7 @@ from Dispaly import dispaly
 
 def function():
     debug = True
-    dispaly ("\n")
+    dispaly ("\n", "",debug)
     dispaly ("Function:", "function", debug)
 ```
 ### Main.py

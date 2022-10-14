@@ -1,12 +1,13 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
 import random
-from Dispaly_Debug import dispaly_debug
+from Dispaly import dispaly
 
 ##########################################
 def password_generator_V20(length, number=True, alphabet=True, special=True):
-    dispaly_debug ("\n")
-    dispaly_debug ("Function:", "password_generator_V20")
+    debug=True
+    dispaly ("\n", "", debug)
+    dispaly ("Function:", "password_generator_V20", debug)
     
     pass_str=""
     txt_str=""
@@ -21,31 +22,32 @@ def password_generator_V20(length, number=True, alphabet=True, special=True):
         txt_str = txt_str + alphabet_uppercase_str + alphabet_lowercase_str 
     if special == True:
         txt_str = txt_str + special_str 
-    dispaly_debug ("txt_str(Primary):", txt_str)
+    dispaly ("txt_str(Primary):", txt_str, debug)
     
     txt_list = random.sample(txt_str,len(txt_str))
     txt_str = "".join(txt_list)
-    dispaly_debug ("txt_str(Final):", txt_str)
+    dispaly ("txt_str(Final):", txt_str, debug)
         
     if length < len(txt_str):
         pass_list = random.sample(txt_str,length)
         pass_str = "".join(pass_list)
     else:
         print("Lenght was too much!")   
-    dispaly_debug ("Password V20:", pass_str)
+    dispaly ("Password V20:", pass_str, debug)
     
     return pass_str
 
 
 ##########################################
 def password_generator_V10(length):
-    dispaly_debug ("\n")
-    dispaly_debug ("Function:", "password_generator_V10")
+    debug=True
+    dispaly ("\n", "", debug)
+    dispaly ("Function:", "password_generator_V10", debug)
     txt_str="!#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
-    dispaly_debug ("txt_str", txt_str)
+    dispaly ("txt_str", txt_str, debug)
     
     pass_list = random.sample(txt_str,length)
     pass_str = "".join(pass_list)
-    dispaly_debug ("Password V10:", pass_str)
+    dispaly ("Password V10:", pass_str, debug)
     
     return pass_str

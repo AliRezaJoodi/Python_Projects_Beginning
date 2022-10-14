@@ -9,7 +9,7 @@ Missing Numbers: [4, 12, 15]
 ```
 
 ### Development
-Write your code in `Find_Missing_Number.py`. For development, you can use `Main.py` to test your function. Click the "Run" button and main.py will run.
+I'll Write the code in `Find_Missing_Number.py`. For development, then can use `Main.py` to test my function.
 
 ### Output
 It's my solutions output:
@@ -20,7 +20,9 @@ numbers (Sort):        [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14, 16]
 max_number:            16
 visualization_numbers: [1, 2, 3, '-', 5, 6, 7, 8, 9, 10, 11, '-', 13, 14, '-', 16]
 missing_numbers:       [4, 12, 15]
-Missing Numbers List:  [4, 12, 15]
+
+
+Missing Numbers:       [4, 12, 15]
 ```
 
 Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  

@@ -17,7 +17,7 @@ Here we are using the getpass module instead of the input function to make sure 
 If the username was correct, the user can try for the password up to three times.
 
 ### Development
-Write your code in `Password_Authentication.py`. For development, you can use `Main.py` to test your function. Click the "Run" button and main.py will run.
+I'll Write the code in `Password_Authentication.py`. For development, then can use `Main.py` to test my function.
 
 ### Output
 It's my solutions output
