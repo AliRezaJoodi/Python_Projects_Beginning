@@ -1,6 +1,7 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Rock_Paper_Scissors_Game import rock_paper_scissors_game
+from Rock_Paper_Scissors_Game import rock_paper_scissors_game_v10
+from Rock_Paper_Scissors_Game import rock_paper_scissors_game_v20
 from Dispaly import dispaly
 import random
 
@@ -25,14 +26,14 @@ def main ():
         dispaly ("Player2 Chose:", player2)
         
         if player1=="Rock" or player1=="Paper" or player1=="Scissors":
-            winner = rock_paper_scissors_game(player1, player2)
+            winner = rock_paper_scissors_game_v20(player1, player2)
             dispaly ("Winner:", winner)
             if winner == "Player1":
                 player1_score = player1_score + 1
             elif winner == "Player2":
                 player2_score = player2_score + 1
         else:
-            print ("Not valid")
+            dispaly ("Winner:", "x")
             
     dispaly ("Player1 Score:", player1_score)
     dispaly ("Player2 Score:", player2_score)
