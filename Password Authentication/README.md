@@ -19,6 +19,17 @@ If the username was correct, the user can try for the password up to three times
 ### Development
 Write your code in `Password_Authentication.py`. For development, you can use `Main.py` to test your function. Click the "Run" button and main.py will run.
 
+### Output
+It's my solutions output
+```
+Enter Your Username: bab
+Enter Your Password:
+Password was wrong!
+Enter Your Password Again:
+Verified
+True
+```
+
 Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
 Source Link:  [Password Authentication using Python](https://thecleverprogrammer.com/2021/05/02/password-authentication-using-python/)
 

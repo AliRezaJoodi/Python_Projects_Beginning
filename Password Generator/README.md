@@ -8,7 +8,7 @@ Write your code in `Password_Generator.py`. For development, you can use `Main.p
 
 ### Output
 It's my solutions output
- ```
+```
 Enter a Length of the Password: 8
 
 
