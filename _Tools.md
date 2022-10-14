@@ -2,7 +2,7 @@ Note: It's a personal help to manage files.
 
 I need to create few files on the main page. Included:
 - `README.md`
-- `Dispaly_Debug.py`
+- `Dispaly.py`
 - `Function.py`
 - `Main.py`
 
@@ -26,17 +26,16 @@ Source Link:  []()
 
 ```
 
-### Dispaly_Debug.py
+### Dispaly.py
 It's a function to display everything. It's useful for debug.
 Its content is:
 ```py
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-debug = True
 lenght = 22
 
-def dispaly_debug (title = "Title", description = ""):
-    if debug == True:
+def dispaly (title = "Title", description = "", status=True):
+    if status == True:
         title = title.ljust(lenght, " ")
         print(title, description)
 ```
@@ -47,11 +46,12 @@ Its content is:
 ```py
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Dispaly_Debug import dispaly_debug
+from Dispaly import dispaly
 
 def function():
-    dispaly_debug ("\n")
-    dispaly_debug ("Function:", "function")
+    debug = True
+    dispaly ("\n")
+    dispaly ("Function:", "function", debug)
 ```
 ### Main.py
 you can use `Main.py` to test your function.
@@ -60,7 +60,7 @@ Its content is:
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
 from Function import function
-from Dispaly_Debug import dispaly_debug
+from Dispaly import dispaly
 
 def main ():
     function()
