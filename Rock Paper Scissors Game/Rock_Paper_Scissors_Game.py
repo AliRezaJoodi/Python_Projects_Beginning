@@ -4,7 +4,7 @@
 from Dispaly import dispaly
 
 def rock_paper_scissors_game(player1, player2):
-    debug=True
+    debug=False
     dispaly ("\n", "",debug)
     dispaly ("Function:", "rock_paper_scissors_game", debug)
     dispaly ("Player1:", player1, debug)
@@ -18,7 +18,7 @@ def rock_paper_scissors_game(player1, player2):
     elif player1 == "Scissors" and player2 == "Paper":
         winner = "Player1"
     elif player1 == player2:
-        winner = "Tie"
+        winner = "Nobody"
     else:
         winner = "Player2"
     dispaly ("winner:", winner, debug)
