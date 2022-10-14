@@ -14,19 +14,15 @@ Enter a Length of the Password: 8
 
 Function:              password_generator_V10
 txt_str                !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-Password V10:          -a}F@){/
-
-
-Generated Password:    -a}F@){/
+Password V10:          :ziba24.
+Generated Password:    :ziba24.
 
 
 Function:              password_generator_V20
 txt_str(Primary):      0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&'()*+,-./:;<=>?@[\]^_`{|}~
-txt_str(Final):        rz/'1@A}*oZlkTEh=4W<&dI2Km(7)a9^xqu-.:g!%#GYtVcp83]\{nsfw[b`+>~JO6_MCPX;NFBjL|URD$eQiH0ySv?5,
-Password V20:          s?T0)%ED
-
-
-Generated Password:    s?T0)%ED
+txt_str(Final):        rORa8Je12{m7y9t<Wq,~u|-Vl$BhDLNA]wn3b6fjZ'`F!*T:>./}c@%\M=gP&(4p0?z)v+XxQsGHK^EIi;o#YUd[k5S_C
+Password V20:          ?<6,DpR[
+Generated Password:    ?<6,DpR[
 ```
 
 Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
