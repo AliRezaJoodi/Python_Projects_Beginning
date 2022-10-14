@@ -50,8 +50,8 @@ Its content is:
 from Dispaly_Debug import dispaly_debug
 
 def function():
-    print("Function Tested")
-    dispaly_debug ("Dispaly Debug:", "OK")
+    dispaly_debug ("\n")
+    dispaly_debug ("Function:", "function")
 ```
 ### Main.py
 you can use `Main.py` to test your function.
@@ -63,7 +63,6 @@ from Function import function
 from Dispaly_Debug import dispaly_debug
 
 def main ():
-    print("Main Tested")
     function()
     
 
