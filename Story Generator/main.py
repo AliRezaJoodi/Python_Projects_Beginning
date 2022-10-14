@@ -1,5 +1,6 @@
-# https://thecleverprogrammer.com/2021/01/11/story-generator-with-python/
-# https://github.com/amankharwal/21-python-mini-projects/blob/main/story.py
+# My GitHub:  		GitHub.com/AliRezaJoodi
+# Source Link:		TheCleverProgrammer.com/2021/01/11/story-generator-with-python/
+# Source Link:		GitHub.com/AmanKharwal/21-python-mini-projects/blob/main/story.py
 
 import random
 
