@@ -32,7 +32,7 @@ def rock_paper_scissors_game_v20(player1, player2):
 def rock_paper_scissors_game_v10(player1, player2):
     debug=False
     dispaly ("\n", "",debug)
-    dispaly ("Function:", "rock_paper_scissors_game", debug)
+    dispaly ("Function:", "rock_paper_scissors_game_v10", debug)
     dispaly ("Player1:", player1, debug)
     dispaly ("Player2:", player2, debug)
     

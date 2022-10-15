@@ -1,8 +1,6 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-lenght = 22
-
-def dispaly (title = "Title", description = "", status=True):
+def dispaly (title = "Title", description = "", status=True, lenght=22):
     if status == True:
         title = title.ljust(lenght, " ")
         print(title, description)
