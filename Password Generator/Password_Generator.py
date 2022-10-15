@@ -1,11 +1,12 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-import random
 from Dispaly import dispaly
+import random
 
+debug = True
+    
 ##########################################
 def password_generator_V20(length, number=True, alphabet=True, special=True):
-    debug=True
     dispaly ("\n", "", debug)
     dispaly ("Function:", "password_generator_V20", debug)
     
@@ -37,10 +38,8 @@ def password_generator_V20(length, number=True, alphabet=True, special=True):
     
     return pass_str
 
-
 ##########################################
 def password_generator_V10(length):
-    debug=True
     dispaly ("\n", "", debug)
     dispaly ("Function:", "password_generator_V10", debug)
     txt_str="!#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
@@ -51,3 +50,9 @@ def password_generator_V10(length):
     dispaly ("Password V10:", pass_str, debug)
     
     return pass_str
+
+##########################################
+if __name__ == "__main__":
+    debug = True
+    password = password_generator_V10(16)
+    password = password_generator_V20(16, number=True, alphabet=True, special=True)

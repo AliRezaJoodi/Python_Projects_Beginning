@@ -9,12 +9,15 @@ I need to create few files on the main page. Included:
 ### README.md
 Its content is:
 ```
-It's my solutions for **Python Programming**.
+It's my solutions for **function**.
 
 ### Assignment
 
 ### Development
-I'll Write the code in `Function.py`. For development, then can use `Main.py` to test my function.
+This program written in a few files.
+- **Dispaly.py** (Display everything and usable for debug.)
+- **Function.py** (Code for main Tasks.)
+- **Main.py** (Calling  and  management functions.) 
 
 ### Output
 It's my solutions output
@@ -23,7 +26,6 @@ Thanks to: []()
 Source Link:  []()
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
-
 ```
 
 ### Dispaly.py
@@ -32,10 +34,13 @@ Its content is:
 ```py
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-def dispaly (title = "Title", description = "", status=True, lenght=22):
+def dispaly (title = "Function:", description = "Dispaly", status=True, lenght=22):
     if status == True:
         title = title.ljust(lenght, " ")
         print(title, description)
+        
+if __name__ == "__main__":
+    dispaly()
 ```
 
 ### Function.py
@@ -46,10 +51,15 @@ Its content is:
 
 from Dispaly import dispaly
 
+debug = False
+
 def function():
+    dispaly("\n", "", debug)
+    dispaly("Function:", "function", debug)
+
+if __name__ == "__main__":
     debug = True
-    dispaly ("\n", "",debug)
-    dispaly ("Function:", "function", debug)
+    function()
 ```
 ### Main.py
 you can use `Main.py` to test your function.
@@ -60,12 +70,12 @@ Its content is:
 from Function import function
 from Dispaly import dispaly
 
-def main ():
-    function()
+def main():
+    dispaly("Function:", "main")
     
 
 if __name__ == "__main__":
-    main ()
+    main()
 ```
 
 

@@ -33,7 +33,6 @@ Player1 Score:         2
 Player2 Score:         1
 ```
 
-Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
 Source Link:  [Rock Paper Scissors Game using Python](https://thecleverprogrammer.com/2022/05/12/rock-paper-scissors-game-using-python/)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

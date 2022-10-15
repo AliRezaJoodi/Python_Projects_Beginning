@@ -14,7 +14,6 @@ Please enter a number: 8
 Congratulations, It was right.
 ```
 
-Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
 Source Link:  [Number Guessing Game using Python](https://TheCleverProgrammer.com/2022/06/29/number-guessing-game-using-python)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

@@ -30,7 +30,6 @@ Verified
 True
 ```
 
-Thanks to: [Aman Kharwal](https://thecleverprogrammer.com/about)  
 Source Link:  [Password Authentication using Python](https://thecleverprogrammer.com/2021/05/02/password-authentication-using-python/)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

@@ -2,9 +2,10 @@
 
 from Dispaly import dispaly
 
+debug = True
+
 #######################################################
 def find_missing_number(numbers):
-    debug=True
     dispaly ("\n", "",debug)
     dispaly ("Function:", "find_missing_number", debug)
     dispaly ("numbers (Orginal):", numbers, debug)
@@ -28,3 +29,8 @@ def find_missing_number(numbers):
     
     dispaly ("\n", "",debug)
     return missing_numbers
+
+if __name__ == "__main__":
+    debug = True
+    find_missing_number([2, 1, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14, 16])
+    

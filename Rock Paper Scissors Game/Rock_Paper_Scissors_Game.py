@@ -2,9 +2,10 @@
 
 from Dispaly import dispaly
 
+debug=False
+
 ######################################################
 def rock_paper_scissors_game_v20(player1, player2):
-    debug=False
     dispaly ("\n", "",debug)
     dispaly ("Function:", "rock_paper_scissors_game_v20", debug)
     dispaly ("Player1:", player1, debug)
@@ -25,12 +26,14 @@ def rock_paper_scissors_game_v20(player1, player2):
     player_merge = player1 + "Vs" + player2
     dispaly ("player_merge:", player_merge, debug)
     
-    return tools_dict[player_merge]
+    winner = tools_dict[player_merge]
+    dispaly ("Winner:", winner, debug)
+    
+    return winner
 
 ###################################################### 
 # Source Link:  https://thecleverprogrammer.com/2022/05/12/rock-paper-scissors-game-using-python/   
 def rock_paper_scissors_game_v10(player1, player2):
-    debug=False
     dispaly ("\n", "",debug)
     dispaly ("Function:", "rock_paper_scissors_game_v10", debug)
     dispaly ("Player1:", player1, debug)
@@ -47,7 +50,13 @@ def rock_paper_scissors_game_v10(player1, player2):
         winner = "Nobody"
     else:
         winner = "Player2"
-    dispaly ("winner:", winner, debug)
+    dispaly ("Winner:", winner, debug)
     
     return winner
+
+######################################################
+if __name__ == "__main__":
+    debug = True
+    rock_paper_scissors_game_v10("Rock", "Scissors")
+    rock_paper_scissors_game_v20("Rock", "Scissors")
     

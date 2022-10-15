@@ -1,6 +1,6 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-def dispaly(title = "Function:", description = "dispaly", status=True, lenght=22):
+def dispaly(title = "Function:", description = "dispaly", status=True, lenght=26):
     if status == True:
         title = title.ljust(lenght, " ")
         print(title, description)
