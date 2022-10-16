@@ -16,7 +16,7 @@ It's my solutions for **function**.
 ### Development
 This program written in a few files.
 - **Dispaly.py** (Display everything and usable for debug.)
-- **Function.py** (Code for main Tasks.)
+- **Function.py** (Code for main Task.)
 - **Main.py** (Calling  and  management functions.) 
 
 ### Output
