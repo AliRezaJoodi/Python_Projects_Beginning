@@ -1,20 +1,20 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Dispaly import dispaly
+from Display import display
 
 debug = True
 
 #######################################################
 def find_missing_number(numbers):
-    dispaly ("\n", "",debug)
-    dispaly ("Function:", "find_missing_number", debug)
-    dispaly ("numbers (Orginal):", numbers, debug)
+    display ("\n", "",debug)
+    display ("Function:", "find_missing_number", debug)
+    display ("numbers (Orginal):", numbers, debug)
     
     numbers.sort()
-    dispaly ("numbers (Sort):", numbers, debug)
+    display ("numbers (Sort):", numbers, debug)
     
     max_number=numbers[len(numbers)-1]
-    dispaly ("max_number:", max_number, debug)
+    display ("max_number:", max_number, debug)
     
     missing_numbers=[]
     visualization_numbers=[]
@@ -24,10 +24,10 @@ def find_missing_number(numbers):
             visualization_numbers.append("-")
         else:
             visualization_numbers.append(i)
-    dispaly ("visualization_numbers:", visualization_numbers, debug)
-    dispaly ("missing_numbers:", missing_numbers, debug)
+    display ("visualization_numbers:", visualization_numbers, debug)
+    display ("missing_numbers:", missing_numbers, debug)
     
-    dispaly ("\n", "",debug)
+    display ("\n", "",debug)
     return missing_numbers
 
 if __name__ == "__main__":

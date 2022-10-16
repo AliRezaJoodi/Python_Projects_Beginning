@@ -2,14 +2,14 @@
 
 from Rock_Paper_Scissors_Game import rock_paper_scissors_game_v10
 from Rock_Paper_Scissors_Game import rock_paper_scissors_game_v20
-from Dispaly import dispaly
+from Display import display
 import random
 
 tools=["Rock", "Paper", "Scissors"]
-dispaly ("Choose Between:", "Rock, Paper, Scissors")
-dispaly ("Player1:", "You")
-dispaly ("Player2:", "CPU")
-dispaly ("Exit Key:", "E or e")
+display ("Choose Between:", "Rock, Paper, Scissors")
+display ("Player1:", "You")
+display ("Player2:", "CPU")
+display ("Exit Key:", "E or e")
 
 winner = ""
   
@@ -23,20 +23,20 @@ def main ():
             break
         
         player2 = random.choice(tools)
-        dispaly ("Player2 Chose:", player2)
+        display ("Player2 Chose:", player2)
         
         if player1=="Rock" or player1=="Paper" or player1=="Scissors":
             winner = rock_paper_scissors_game_v20(player1, player2)
-            dispaly ("Winner:", winner)
+            display ("Winner:", winner)
             if winner == "Player1":
                 player1_score = player1_score + 1
             elif winner == "Player2":
                 player2_score = player2_score + 1
         else:
-            dispaly ("Winner:", "x")
+            display ("Winner:", "x")
             
-    dispaly ("Player1 Score:", player1_score)
-    dispaly ("Player2 Score:", player2_score)
+    display ("Player1 Score:", player1_score)
+    display ("Player2 Score:", player2_score)
      
 if __name__ == "__main__":
     main ()

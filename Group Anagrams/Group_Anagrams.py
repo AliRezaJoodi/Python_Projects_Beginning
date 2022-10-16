@@ -1,30 +1,30 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Dispaly import dispaly
+from Display import display
 debug = False
 
 # Source Link:      https://thecleverprogrammer.com/2022/05/26/group-anagrams-using-python/
 def group_anagrams_v20(words_list):
     from collections import defaultdict
-    dispaly("\n", "", debug)
-    dispaly("Function:", "group_anagrams_v20", debug)  
-    dispaly("Words (Orginal):", words_list, debug)
+    display("\n", "", debug)
+    display("Function:", "group_anagrams_v20", debug)  
+    display("Words (Orginal):", words_list, debug)
     
     anagrams = defaultdict(list)
     for word_str in words_list:
         word_sorted_str = "".join(sorted(word_str))
         anagrams[word_sorted_str].append(word_str)
         
-    dispaly("anagrams:", anagrams, debug)
+    display("anagrams:", anagrams, debug)
     anagrams_list =  list(anagrams.values())
-    dispaly("anagrams_list:", anagrams_list, debug)  
+    display("anagrams_list:", anagrams_list, debug)  
     return list(anagrams.values())
   
 # Source Link:      https://www.tutorialspoint.com/group-anagrams-in-python#
 def group_anagrams_v10(words_list):
-    dispaly("\n", "", debug)
-    dispaly("Function:", "group_anagrams_v10", debug)  
-    dispaly("Words (Orginal):", words_list, debug)
+    display("\n", "", debug)
+    display("Function:", "group_anagrams_v10", debug)  
+    display("Words (Orginal):", words_list, debug)
     
     anagrams_dict = {}
     for word_str in words_list:
@@ -35,9 +35,9 @@ def group_anagrams_v10(words_list):
         else:
             anagrams_dict[word_sorted_str] = [word_str]
     
-    dispaly("anagrams_dict:", anagrams_dict, debug)  
+    display("anagrams_dict:", anagrams_dict, debug)  
     anagrams_list =  list(anagrams_dict.values())
-    dispaly("anagrams_list:", anagrams_list, debug)      
+    display("anagrams_list:", anagrams_list, debug)      
     return anagrams_list
     
     

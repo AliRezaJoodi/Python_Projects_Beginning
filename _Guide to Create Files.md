@@ -2,7 +2,7 @@ Note: It's a personal help to manage files.
 
 I need to create few files on the main page. Included:
 - `README.md`
-- `Dispaly.py`
+- `Display.py`
 - `Function.py`
 - `Main.py`
 
@@ -15,7 +15,7 @@ It's my solutions for **function**.
 
 ### Development
 This program written in a few files.
-- **Dispaly.py** (Display everything and usable for debug.)
+- **Display.py** (Display everything and usable for debug.)
 - **Function.py** (Code for main Task.)
 - **Main.py** (Calling  and  management functions.) 
 
@@ -28,19 +28,19 @@ Source Link:  []()
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
 ```
 
-### Dispaly.py
+### Display.py
 It's a function to display everything. It's useful for debug.
 Its content is:
 ```py
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-def dispaly (title = "Function:", description = "Dispaly", status=True, lenght=22):
+def display(title = "Function:", description = "Display", status=True, lenght=22):
     if status == True:
         title = title.ljust(lenght, " ")
         print(title, description)
         
 if __name__ == "__main__":
-    dispaly()
+    display()
 ```
 
 ### Function.py
@@ -49,13 +49,13 @@ Its content is:
 ```py
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Dispaly import dispaly
+from Display import display
 
 debug = False
 
 def function():
-    dispaly("\n", "", debug)
-    dispaly("Function:", "function", debug)
+    display("\n", "", debug)
+    display("Function:", "function", debug)
 
 if __name__ == "__main__":
     debug = True
@@ -68,10 +68,10 @@ Its content is:
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
 from Function import function
-from Dispaly import dispaly
+from Display import display
 
 def main():
-    dispaly("Function:", "main")
+    display("Function:", "main")
     
 
 if __name__ == "__main__":

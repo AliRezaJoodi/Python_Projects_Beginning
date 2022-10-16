@@ -1,15 +1,15 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Dispaly import dispaly
+from Display import display
 
 debug=False
 
 ######################################################
 def rock_paper_scissors_game_v20(player1, player2):
-    dispaly ("\n", "",debug)
-    dispaly ("Function:", "rock_paper_scissors_game_v20", debug)
-    dispaly ("Player1:", player1, debug)
-    dispaly ("Player2:", player2, debug)
+    display ("\n", "",debug)
+    display ("Function:", "rock_paper_scissors_game_v20", debug)
+    display ("Player1:", player1, debug)
+    display ("Player2:", player2, debug)
     
     tools_dict ={
         "RockVsRock":           "Nobody",
@@ -24,20 +24,20 @@ def rock_paper_scissors_game_v20(player1, player2):
     }
     
     player_merge = player1 + "Vs" + player2
-    dispaly ("player_merge:", player_merge, debug)
+    display ("player_merge:", player_merge, debug)
     
     winner = tools_dict[player_merge]
-    dispaly ("Winner:", winner, debug)
+    display ("Winner:", winner, debug)
     
     return winner
 
 ###################################################### 
 # Source Link:  https://thecleverprogrammer.com/2022/05/12/rock-paper-scissors-game-using-python/   
 def rock_paper_scissors_game_v10(player1, player2):
-    dispaly ("\n", "",debug)
-    dispaly ("Function:", "rock_paper_scissors_game_v10", debug)
-    dispaly ("Player1:", player1, debug)
-    dispaly ("Player2:", player2, debug)
+    display ("\n", "",debug)
+    display ("Function:", "rock_paper_scissors_game_v10", debug)
+    display ("Player1:", player1, debug)
+    display ("Player2:", player2, debug)
     
     winner = "Nobody"
     if player1 == "Rock" and player2 == "Scissors":
@@ -50,7 +50,7 @@ def rock_paper_scissors_game_v10(player1, player2):
         winner = "Nobody"
     else:
         winner = "Player2"
-    dispaly ("Winner:", winner, debug)
+    display ("Winner:", winner, debug)
     
     return winner
 

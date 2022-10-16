@@ -6,7 +6,7 @@ you will be given a list of words, and you have to write an algorithm to group a
 
 ### Development
 This program written in a few files.
-- **Dispaly.py** (Display everything and usable for debug.)
+- **Display.py** (Display everything and usable for debug.)
 - **Function.py** (Code for main Tasks.)
 - **Main.py** (Calling  and  management functions.) 
 

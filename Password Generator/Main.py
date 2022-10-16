@@ -2,7 +2,7 @@
 
 from Password_Generator import password_generator_V10
 from Password_Generator import password_generator_V20
-from Dispaly import dispaly
+from Display import display
 
 def main():
     password_length = int(input("Enter a Length of the Password: "))
@@ -11,8 +11,8 @@ def main():
     password_V20 = password_generator_V20(password_length, number=True, alphabet=True, special=True)
     
     print("\n")
-    dispaly ("Generated Password:", password_V10)
-    dispaly ("Generated Password:", password_V20)
+    display ("Generated Password:", password_V10)
+    display ("Generated Password:", password_V20)
 
 if __name__ == "__main__":
     main()

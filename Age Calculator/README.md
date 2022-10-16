@@ -8,7 +8,7 @@ You only Ask for the birthday. So use datetime module for today’s date.
 
 ### Development
 This program written in a few files.
-- **Dispaly.py** (Display everything and usable for debug.)
+- **Display.py** (Display everything and usable for debug.)
 - **Age_Calculator.py** (Code for main Tasks.)
 - **Main.py** (Calling  and  management functions.) 
 
