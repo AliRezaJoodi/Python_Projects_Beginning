@@ -7,18 +7,21 @@ To create an age calculator, you need two dates:
 You only Ask for the birthday. So use datetime module for today’s date. 
 
 ### Development
-This program written in a few files.
-- **Display.py** (Display everything and usable for debug.)
-- **Age_Calculator.py** (Code for main Tasks.)
-- **Main.py** (Calling  and  management functions.) 
+I created some files for modular programming. They are including:
+- **display.py** (Display everything and usable for debug.)
+- **age_calculator.py** (Code for main Tasks.)
+- **main.py** (Calling  and  management functions.) 
 
 ### Output
 It's my solutions output
 ```
-Enter Year of Your Birth:  1984
-Enter Month of Your Birth: 5
-Enter Day of Your Birth:   2
-Age:                       38
+When is your brithday?
+Enter Year:            1984
+Enter Month:           1
+Enter Day:             1
+Today Date:            2022-10-17
+Birth Date:            1984-01-01
+Age:                   38
 ```
 
 Source Link:  [Age Calculator using Python](https://thecleverprogrammer.com/2021/09/09/age-calculator-using-python/)

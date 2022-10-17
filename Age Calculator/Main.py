@@ -1,17 +1,19 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Age_Calculator import age_calculator_v10
-from Display import display
-
-from datetime import date
+from display import *
+from date_calculator import *
+from date_calculator import calculate_past as calculate_age
 
 def main():
-    year_int =   int(input("Enter Year of Your Birth:  "))
-    month_int =  int(input("Enter Month of Your Birth: "))
-    day_int =    int(input("Enter Day of Your Birth:   "))
-    birth_date = date(year_int, month_int, day_int)
-    age = age_calculator_v10(birth_date)
-    display ("Age:", age)
+    display("When is your brithday?", "")
+    birth_date= get_date()
+    today_date= read_today()
+    age= calculate_age(birth_date, today_date)
+    
+    display("Birth Date:", birth_date)
+    display("Today Date:", today_date)
+    display("Age:", age)
+    if birth_date > today_date : display("Note:", "Birth Date Was Invalid")
 
 if __name__ == "__main__":
     main()

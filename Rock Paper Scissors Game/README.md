@@ -6,7 +6,10 @@ In this program, Player-1 will be the user, and player-2 will be the computer. P
 Game will repeat until press exit key_'E' or 'e'. It shows total score then will exit.
 
 ### Development
-I'll Write the code in `Rock_Paper_Scissors_Game.py`. For development, then can use `Main.py` to test my function.
+I created some files for modular programming. They are including:
+- **display.py** (Display everything and usable for debug.)
+- **rock_paper_scissors_game.py** (Code for main Tasks.)
+- **main.py** (Calling  and  management functions.) 
 
 ### Output
 It's my solutions output

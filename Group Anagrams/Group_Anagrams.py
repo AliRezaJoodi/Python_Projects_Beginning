@@ -1,6 +1,6 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Display import display
+from display import *
 debug = False
 
 # Source Link:      https://thecleverprogrammer.com/2022/05/26/group-anagrams-using-python/
@@ -18,7 +18,7 @@ def group_anagrams_v20(words_list):
     display("anagrams:", anagrams, debug)
     anagrams_list =  list(anagrams.values())
     display("anagrams_list:", anagrams_list, debug)  
-    return list(anagrams.values())
+    return anagrams_list
   
 # Source Link:      https://www.tutorialspoint.com/group-anagrams-in-python#
 def group_anagrams_v10(words_list):

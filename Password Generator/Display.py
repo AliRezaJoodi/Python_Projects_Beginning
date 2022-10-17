@@ -1,7 +1,10 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-def display(title = "Function:", description = "Display", status=True, lenght=22):
+LENGHT_TITLE= 22 
+
+def display(title = "Function:", description = "display", status=True, lenght=LENGHT_TITLE):
     if status == True:
+        title= str(title)
         title = title.ljust(lenght, " ")
         print(title, description)
         

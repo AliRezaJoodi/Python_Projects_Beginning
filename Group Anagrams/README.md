@@ -5,10 +5,10 @@ Anagrams are words formed by rearranging the letters of another word, For exampl
 you will be given a list of words, and you have to write an algorithm to group all the words which are anagrams of each other.
 
 ### Development
-This program written in a few files.
-- **Display.py** (Display everything and usable for debug.)
-- **Function.py** (Code for main Tasks.)
-- **Main.py** (Calling  and  management functions.) 
+I created some files for modular programming. They are including:
+- **display.py** (Display everything and usable for debug.)
+- **group_anagrams** (Code for main Tasks.)
+- **main.py** (Calling  and  management functions.) 
 
 ### Output
 It's my solutions output

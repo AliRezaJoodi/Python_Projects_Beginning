@@ -9,10 +9,10 @@ Missing Numbers: [4, 12, 15]
 ```
 
 ### Development
-This program written in a few files.
-- **Display.py** (Display everything and usable for debug.)
-- **Function.py** (Code for main Tasks.)
-- **Main.py** (Calling  and  management functions.) 
+I created some files for modular programming. They are including:
+- **display.py** (Display everything and usable for debug.)
+- **find_missing_number.py** (Code for main Tasks.)
+- **main.py** (Calling  and  management functions.) 
 
 ### Output
 It's my solutions output:

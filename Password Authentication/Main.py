@@ -1,6 +1,6 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Password_Authentication import authentication
+from password_authentication import *
           
 database = {
     "bab": 1234,
@@ -9,7 +9,7 @@ database = {
 }
 
 def main():
-    print(authentication(database))
+    verify(database)
 
 if __name__ == "__main__":
     main()

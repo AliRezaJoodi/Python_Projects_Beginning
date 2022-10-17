@@ -1,18 +1,17 @@
 # My GitHub:  		GitHub.com/AliRezaJoodi
 
-from Password_Generator import password_generator_V10
-from Password_Generator import password_generator_V20
-from Display import display
+from display import *
+from display import LENGHT_TITLE as LENGHT
+from password_generator import *
 
 def main():
-    password_length = int(input("Enter a Length of the Password: "))
+    length = int(input("Enter a Length:".ljust(LENGHT+2, " ")))
     
-    password_V10 = password_generator_V10(password_length)
-    password_V20 = password_generator_V20(password_length, number=True, alphabet=True, special=True)
+    password_V10 = generate_V10(length)
+    password_V20 = generate_V20(length, number=True, alphabet=True, special=True)
     
-    print("\n")
-    display ("Generated Password:", password_V10)
-    display ("Generated Password:", password_V20)
+    display ("Generated Password V10:", password_V10)
+    display ("Generated Password V20:", password_V20)
 
 if __name__ == "__main__":
     main()
